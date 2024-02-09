@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:uicollection/donut/donut.dart';
+import 'package:uicollection/youtubelayout/youtubelayout.dart';
 
 // Which UI you want just call the folder name with first letter capital and add "App" to it
 // Example: if you want donut app just call this "DonutApp()"
@@ -13,6 +14,6 @@ class UICollection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const DonutApp();
+    return const YoutubeLayoutApp();
   }
 }
